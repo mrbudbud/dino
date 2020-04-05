@@ -1,0 +1,13 @@
+Trex.prototype.reset = function () {
+    this.xPos = 1;
+    this.yPos = 1;
+    this.jumpVelocity = 1;
+    this.jumping = false;
+    this.ducking = false;
+    this.midiar = true;
+
+    this.speedDrop = false;
+    this.update(0, Trex.status.RUNNING);
+}
+
+
